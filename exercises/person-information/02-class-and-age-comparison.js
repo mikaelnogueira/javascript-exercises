@@ -1,4 +1,4 @@
-// comparate age person
+// Compare people's ages
 
 class Person {
     name;

@@ -1,4 +1,4 @@
-// IMC 
+// BMI
 
 const weight = 60;
 const height = 1.73;

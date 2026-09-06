@@ -1,4 +1,4 @@
-// vars
+// Variables
 const product = {
     name: 'Jacket',
     price: 200
@@ -10,7 +10,7 @@ const twoTimes = product.price / 2;
 const moreTime = (10 / 100) * product.price;
 const optionBuy = 'debit';
 
-// logic
+// Payment logic
 console.log(product.name + ' is $' + product.price);
 
 if (optionBuy === 'debit') {

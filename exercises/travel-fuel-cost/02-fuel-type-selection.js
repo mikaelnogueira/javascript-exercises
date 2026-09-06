@@ -1,24 +1,24 @@
-// desafio 
+// Challenge
 
 
-// price gas and etanol
+// Gasoline and ethanol prices
 const etanolPrice = 2.08;
 const gasPrice = 1.54;
 
 console.log('Etanol Price is $' + etanolPrice, 'Gas Price is $' + gasPrice);
 
-// travel distance
+// Travel distance
 const travelDistance = 100;
 const travel = 'Travel distance is ' + travelDistance + ' Kilometers'; 
 
 console.log(travel);
 
-//cost kilometers car;
+// Fuel consumed by the car
 const litersConsumed = travelDistance / 4;
 
 console.log('Car consume liter in this travel is ' + litersConsumed + 'Liters')
 
-// GAS or ETANOL
+// Select gasoline or ethanol
 
 const carType = 'gas';
 

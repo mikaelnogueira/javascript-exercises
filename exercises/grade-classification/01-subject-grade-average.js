@@ -1,4 +1,4 @@
-// Define points
+// Define subject points
 
 const portuguese = {
     subject: 'portuguese ', 
@@ -23,7 +23,7 @@ const gpa = (portuguese.point + math.point + history.point) /3;
 
 console.log('Student GPA is '+ gpa.toFixed(2));
 
-//Classification
+// Classification
 
 if (gpa < 2.5) {
     console.log('reprove');

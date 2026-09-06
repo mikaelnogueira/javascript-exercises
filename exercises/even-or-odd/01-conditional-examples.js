@@ -1,12 +1,10 @@
 
-// = → atribuição
-// == → comparação com coerção
-// Ignora o tipo da variável (Podendo converter o tipo da variável)
-// === → comparação estrita
+// = assigns a value
+// == compares values with type coercion
+// It ignores the variable type and may convert the value
+// === compares values and types strictly
 
-//
-
-// if and else utilize
+// Using if and else
 const number = 1125;
 const parNumber = number % 2 === 0;
 
@@ -20,9 +18,9 @@ else {
     console.log(inparPhrase);
 }
 
-// utilize return to finish if structure
-// early return
-// better code but not bool operator
+// Use return to finish the conditional flow
+// Early return
+// Cleaner flow without storing the boolean result
 
 const number = 101;
 if (number % 2 === 0) {
@@ -33,8 +31,8 @@ if (number % 2 === 0) {
 console.log("Seu número é IMPAR")
 
 
-// boolean operator
+// Boolean expression
 const number = 123;
-const parNumber = (number % 2) === 0; // () define a ordem da operação
+const parNumber = (number % 2) === 0; // Parentheses define the operation order
 
 console.log(parNumber);

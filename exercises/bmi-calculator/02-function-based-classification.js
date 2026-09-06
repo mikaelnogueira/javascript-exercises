@@ -1,4 +1,4 @@
-// IMC 
+// BMI
 
 function main(){
     const weight = 55;

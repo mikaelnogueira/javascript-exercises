@@ -1,18 +1,18 @@
-// OBJETO
+// OBJECT
 const pessoa = {
     nome: 'Vitor Guerra',
     idade: 25,
 
-    // MÉTODO: uma função dentro do objeto
+    // METHOD: a function defined inside an object
     descrever: function() {
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
 };
 
-// // ALTERANDO/CRIANDO O MÉTODO
+// // CHANGING OR REPLACING THE METHOD
 // pessoa.descrever = function() {
-//     console.log(`Meu nome é ${this.nome}`);
+//     console.log(`My name is ${this.nome}`);
 // };
 
-// CHAMANDO O MÉTODO
+// CALLING THE METHOD
 console.log(pessoa['nome'], pessoa['idade']);

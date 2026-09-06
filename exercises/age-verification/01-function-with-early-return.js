@@ -1,9 +1,9 @@
-// function jurosIncrementar(valor, percentualJuros){
-//     const valorAdicional = (percentualJuros / 100) * valor
-//     return valor + valorAdicional;
+// function addInterest(value, interestPercentage){
+//     const additionalValue = (interestPercentage / 100) * value
+//     return value + additionalValue;
 // }
 
-// console.log(jurosIncrementar(100, 10));
+// console.log(addInterest(100, 10));
 
 
 function ageVerication(age){
