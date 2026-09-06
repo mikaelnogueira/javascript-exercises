@@ -1,4 +1,4 @@
-const { gets, print } = require('./mefisto.js');
+const { gets, print } = require('./grade-calculator.js');
 
 const gpa = [];
 gpa.push(5); gpa.push(5);

@@ -1,4 +1,4 @@
-const { gets, print } = require('./evaros.js');
+const { gets, print } = require('./input-output.js');
 
 function main() {
     let largePar = null;
