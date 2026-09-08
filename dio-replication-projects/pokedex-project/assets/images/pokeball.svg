@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Pokeball">
+    <clipPath id="ball-shape">
+        <circle cx="120" cy="120" r="105" />
+    </clipPath>
+    <rect x="15" y="15" width="210" height="105" fill="#e85454" clip-path="url(#ball-shape)" />
+    <rect x="15" y="120" width="210" height="105" fill="#ffffff" clip-path="url(#ball-shape)" />
+    <circle cx="120" cy="120" r="105" fill="none" stroke="#1f2933" stroke-width="12" />
+    <path d="M18 120h204" stroke="#1f2933" stroke-width="12" />
+    <circle cx="120" cy="120" r="35" fill="#ffffff" stroke="#1f2933" stroke-width="12" />
+    <circle cx="120" cy="120" r="13" fill="#1f2933" />
+</svg>
